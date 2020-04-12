@@ -1,5 +1,5 @@
 import {ChangeDetectionStrategy, Component, ElementRef, ViewChild, ViewEncapsulation} from '@angular/core';
-import {fromEvent} from '@zoneless-helpers';
+import {fromZoneEvent} from '@rxjs';
 import {BaseComponent} from '../../base.component.ts/base.component';
 import {tap} from 'rxjs/operators';
 import {defer} from 'rxjs';
